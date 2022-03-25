@@ -16,11 +16,14 @@ export default function App() {
   );
 }
 
+//o styles e came case 
+
+//css styles
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#e0e5e5',
+    paddingTop:80,
   },
 });
