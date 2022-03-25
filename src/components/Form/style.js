@@ -16,7 +16,7 @@ const styles = StyleSheet.create( {
       borderTopRightRadius: 30,//bordas arredondadas 
       marginTop: 30,
     
-     },
+   },
 
    form:{
 
@@ -25,48 +25,47 @@ const styles = StyleSheet.create( {
       marginTop: "30",
       padding: 10,
 
-     },
+   },
 
-   formLabel:{
+   formLabel:{ //label de altura e peso
 
       color: "#000000",
       fontSize: 18,
       paddingLeft: 20,
 
-     },
+   },
 
-   input:{
+   input:{ 
 
-      width:"90%",
-      borderRadius:50,
-      backgroundColor:"#f6f6f6",
-      height:40,
-      margin:12,
-      paddingLeft:10,
+      width: "90%",
+      borderRadius: 50,
+      backgroundColor: "#f6f6f6",
+      height: 40,
+      margin: 12,
+      paddingLeft: 10,
 
-     },
+   },
 
    buttonCalculator:{
 
-      borderRadius:50, 
-      alignItems:"center",
-      justifyContent:"center",
-      width:"90%",
-      backgroundColor:"#ff0043",
-      paddingTop:14,
-      paddingBottom:14,
-      marginLeft:12,
-      marginTop:30, 
+      borderRadius: 50, 
+      alignItems: "center",
+      justifyContent: "center",
+      width: "90%",
+      backgroundColor: "#ff0043",
+      paddingTop: 14,
+      paddingBottom: 14,
+      marginLeft: 12,
+      marginTop: 30, 
       
-    
    },
 
-   textbuttonCalculator:{
+   textbuttonCalculator:{ //nome dentro do botão
 
-      fontSize:20,
-      color:"#ffffff",
+      fontSize: 20,
+      color: "#ffffff",
+
    },
-
 
   });
 

@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import { Text, TextInput , View, TouchableOpacity } from 'react-native'
 
-//importando compónentes
-import ResutImc from '../ResultImc/index'
-import styles from './style';
+import ResutImc from '../ResultImc/index'//importando compónente
+import styles from './style'; //importando o style
 
 export default function Form () {
 
@@ -39,13 +38,18 @@ export default function Form () {
   
     return (
 
+      //aqui fica os campos para preencher e o botão calcular
+
       //keyboard type e o tipo de teclado, especificamente o teclado numerico
 
       <View style={styles.formContext}>
             <View style={styles.form}>
 
+
+                 {/*Label*/}
                  <Text style={styles.formLabel}>Altura</Text>
 
+                 {/*campo de digitar*/}
                  <TextInput 
                  style={styles.input}
                  onChangeText={setHeight}
@@ -54,9 +58,11 @@ export default function Form () {
                  keyboardType='numeric'
                  
                  />
-
+                 
+                 {/*Label*/}
                  <Text style={styles.formLabel}>Peso</Text>
 
+                 {/*campo de digitar*/}
                  <TextInput
                    style={styles.input}
                    onChangeText={setWeight}
@@ -66,18 +72,24 @@ export default function Form () {
 
                  />
                
-                 <TouchableOpacity
+                 {/*botãos com efeito*/}
+                 <TouchableOpacity 
                     style={styles.buttonCalculator}
                     onPress={() =>{
                       validationImc()
                     }}
                  >
+
+                 {/*texto dentro do botão*/}  
                  <Text style={styles.textbuttonCalculator}>{TextButton}</Text>
                  
                  </TouchableOpacity>
                  
-           </View> 
+            </View> 
+
+           {/*resultado do imc*/}
            <ResutImc messageResultImc={messageImc} ResultImc={imc}/> 
+
       </View>
 
     );
