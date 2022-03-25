@@ -1,12 +1,12 @@
 import { Text, View } from 'react-native'
-import  Reac from 'react'
+import  React from 'react'
 
 export default function Title() {
     
 
     return (
       <View>
-        <Text>Olá mundo</Text>
+        <Text>OneBitHealth</Text>
       </View>
     );
   }
