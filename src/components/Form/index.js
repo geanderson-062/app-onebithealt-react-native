@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
-import { Text, TextInput , View, Button } from 'react-native'
+import { Text, TextInput , View, TouchableOpacity } from 'react-native'
+
+//importando compónentes
 import ResutImc from '../ResultImc/index'
+import styles from './style';
 
 export default function Form () {
 
@@ -36,12 +39,15 @@ export default function Form () {
   
     return (
 
-      <View>
-            <View>
+      //keyboard type e o tipo de teclado, especificamente o teclado numerico
 
-                 <Text>Altura</Text>
+      <View style={styles.formContext}>
+            <View style={styles.form}>
+
+                 <Text style={styles.formLabel}>Altura</Text>
 
                  <TextInput 
+                 style={styles.input}
                  onChangeText={setHeight}
                  value={height}
                  placeholder='Ex, 1.71'
@@ -49,16 +55,26 @@ export default function Form () {
                  
                  />
 
-                 <Text>Peso</Text>
+                 <Text style={styles.formLabel}>Peso</Text>
 
                  <TextInput
+                   style={styles.input}
                    onChangeText={setWeight}
                    value={weight}
                    placeholder='Ex, 65.365'
                    keyboardType='numeric'
 
                  />
-                 <Button onPress={() => validationImc()} title={TextButton} />
+               
+                 <TouchableOpacity
+                    style={styles.buttonCalculator}
+                    onPress={() =>{
+                      validationImc()
+                    }}
+                 >
+                 <Text style={styles.textbuttonCalculator}>{TextButton}</Text>
+                 
+                 </TouchableOpacity>
                  
            </View> 
            <ResutImc messageResultImc={messageImc} ResultImc={imc}/> 

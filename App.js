@@ -1,16 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-//componentes
+//importando compónentes
 import Title from './src/components/Title/index'
-import Main from './src/components/Main/index'
+import Form from './src/components/Form/index'
 
+//juntando os componentes
 export default function App() {
   return (
     <View style={styles.container}>
       
        <Title/>
-       <Main/>
+       <Form/>
 
     </View>
   );
@@ -23,7 +24,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e0e5e5',
+    backgroundColor: '#e0e5e5',//cor de fundo da parte superior
     paddingTop:80,
   },
 });
