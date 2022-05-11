@@ -1,5 +1,7 @@
-# app-onebithealt-react-native
+#app de dev mobile 
 
-objetivo do aplicativo informar o IMC .
-aula de react native .
-status = finalizado .
+sistema deve ser um crud com dados manipulados por uma api rest em php 
+
+#cor 
+
+verde floresta #00a000

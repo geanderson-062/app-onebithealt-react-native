@@ -1,9 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native'; 
+import { StyleSheet, Text, View,Image } from 'react-native'; 
 
 //importando compónentes
-import Title from './src/components/Title/index'
-import Form from './src/components/Form/index'
+import Title_entrar from './src/components/Title_entrar/index'
+import Form_entrar from './src/components/Form_entrar/index'
+import { Img_entrar } from './src/components/Img_entrar/index'
 
 //juntando os componentes
 export default function App() {
@@ -11,9 +12,11 @@ export default function App() {
   return (
 
     <View style={styles.container}>
-      
-       <Title/>
-       <Form/>
+       
+       <Img_entrar/> <br/><br/><br/><br/>
+       <Title_entrar/>
+       <Form_entrar/>
+       
 
     </View>
 
@@ -29,7 +32,7 @@ const styles = StyleSheet.create({
   container: {
 
     flex: 1,
-    backgroundColor: '#e0e5e5',//cor de fundo da parte superior
+    backgroundColor: '#00a000',//cor de fundo da parte superior
     paddingTop:80,
 
   },
