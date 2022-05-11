@@ -1,0 +1,6 @@
+objetivo do aplicativo e informar o imc 
+
+o sistema deve ter uma interface com desigenr moderno 
+
+o sistema deve ter cores chamativas 
+
