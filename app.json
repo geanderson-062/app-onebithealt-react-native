@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app-expo-react-native",
-    "slug": "app-expo-react-native",
+    "name": "onebithealt",
+    "slug": "onebithealt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
