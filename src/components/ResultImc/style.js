@@ -24,7 +24,6 @@ const styles = StyleSheet.create( {
       color: "#ff0043",
       fontWeight: "bold",
 
-
   },
 
   information:{ //informação do que e para fazer

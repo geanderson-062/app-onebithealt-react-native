@@ -1,6 +1,5 @@
 import { StyleSheet } from 'react-native'
 
-
 // css style 
 
 const styles = StyleSheet.create( {
@@ -22,7 +21,7 @@ const styles = StyleSheet.create( {
 
       width: "100%",
       height: "auto",
-      marginTop: "30",
+      marginTop: 30,
       padding: 10,
 
    },
