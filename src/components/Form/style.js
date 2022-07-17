@@ -9,7 +9,7 @@ const styles = StyleSheet.create( {
       width: "100%",
       height: "100%",
       bottom: 0,
-      backgroundColor: "#ffffff",//cor de fundo da parte inferior
+      backgroundColor: "#fff",//cor de fundo da parte inferior
       alignItems: "center",//centralizando
       borderTopLeftRadius: 30,//bordas arredondadas
       borderTopRightRadius: 30,//bordas arredondadas 
@@ -28,7 +28,7 @@ const styles = StyleSheet.create( {
 
    formLabel:{ //label de altura e peso
 
-      color: "#000000",
+      color: "#000",
       fontSize: 18,
       paddingLeft: 20,
 

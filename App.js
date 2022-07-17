@@ -11,9 +11,9 @@ export default function App() {
   return (
 
     <View style={styles.container}>
-      
-       <Title/>
-       <Form/>
+         <StatusBar backgroundColor="#e0e5e5" barStyle="dark-content" />
+         <Title/>
+         <Form/>
 
     </View>
 
